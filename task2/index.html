@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Формы</title>
+    </head>
+    <body>
+        <form action="#" method="post" name="login">
+            <h2>Форма регистрации</h2>
+            <div>
+                <label for="email">Электронная почта</label>
+                <input id="email" type="email" required name="email"
+                    placeholder="Введите email">
+            </div>
+            <div>
+                <label for="password">Пароль</label>
+                <input id="password" type="password" required name="password"
+                    placeholder="Введите пароль" minlength="3" maxlength="12">
+            </div>
+            <div>
+                <label for="age">Возраст</label>
+                <input id="age" type="number" required name="age" min="18"
+                    max="99"
+                    placeholder="Возраст">
+            </div>
+            <div>
+                <label for="name">Имя</label>
+                <input id="name" type="text" name="name" placeholder="Имя">
+            </div>
+            <div>
+                <label for="phone">Номер телефона</label>
+                <input id="phone" type="tel" placeholder="Номер телефона"
+                    name="phone">
+            </div>
+            <button type="submit">Отправить</button>
+            <button type="reset">Очистить поля формы</button>
+        </form>
+
+        <form action="#" method="post" name="login">
+            <h2>Форма поиска квартиры</h2>
+
+            <fieldset>
+                <legend>Местоположение</legend>
+                <input id="metro" type="text" min="1" max="50" placeholder="Станция метро">
+                <input id="street" type="text" min="1" max="50" placeholder="Название улицы">
+                <input id="district" type="text" min="1" max="50" placeholder="Район">
+            </fieldset>
+            <div>
+                <label for="room">Количество комнат</label>
+                <input id="room" type="number" min="1" max="10">
+            </div>
+            <div>
+                <label for="was_build">Год постройки</label>
+                <input id="was_build" type="number" min="1800" max="2022">
+            </div>
+            <div>
+                <label for="price">Максимальная стоимость (млн.руб)</label>
+                <input id="price" type="number" min="0" max="100">
+            </div>
+            <div>
+                <label for="square">Площадь (м2)</label>
+                <input id="square" type="number" min="15" max="500">
+            </div>
+            <div>
+                <label for="finishing">С отделкой</label>
+                <input id="finishing" type="checkbox">
+            </div>
+            <fieldset>
+                <legend>С терассой</legend>
+                <label>
+                    С террассой
+                    <input type="radio" name="terrace" value="yes">
+                </label>
+                <label>
+                    Без террассы
+                    <input type="radio" name="terrace" value="no">
+                </label>
+               
+            </fieldset>
+            <fieldset>
+                <legend>Класс жилья</legend>
+                <label for="bisnes">Бизнес</label>
+                <input id="bisnes" type="checkbox">
+                <label for="premium">Премиум</label>
+                <input id="premium" type="checkbox">
+                <label for="deluxe">Делюкс</label>
+                <input id="deluxe" type="checkbox">
+            </fieldset>
+            <div>
+                <label for="floor">Этаж</label>
+                <select id="floor" name="floor">
+                        <option value="1">Не первый</option>
+                        <option value="2">Не последний</option>
+                        <option value="3">2</option>
+                        <option value="4">3</option>
+                        <option value="5">4</option>
+                        <option value="6">5</option>
+                   
+                </select>
+            </div>
+            <button type="submit">Осуществить поиск</button>
+            <button type="reset">Очистить поля формы</button>
+           
+        </form>
+
+    </body>
+</html>

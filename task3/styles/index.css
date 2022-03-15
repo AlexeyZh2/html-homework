@@ -1,0 +1,166 @@
+body {
+    background-image: url(../pictures/туман.jpg);
+    background-size: 100%;
+    background-position:0vw;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    max-width: 100%;
+    background-clip: border-box;
+}
+section {
+    margin-top: 50px;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.menu_active {
+    border-bottom: 1px solid red;
+}
+
+ul {
+    background-color: #FFA000;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0px;
+}
+
+li {
+   
+    display: inline-block;
+    color: red;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+li > a {
+    color: red;
+    text-decoration: none;
+}
+
+ul ul li {
+    display: none;
+}
+ul > ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.task2_title {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+p {
+    font-size: 26px;
+}
+.lorem_ipsum {
+    text-transform: uppercase;
+    color: red;
+}
+.consectetur {
+    text-decoration:line-through;
+}
+p > a {
+    color: red;
+    text-decoration: none;
+}
+.question {
+    color: red;
+}
+
+div > a {
+    display: inline-block;
+    border: 1px solid red;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+    margin-right: 15px;
+    text-align: center;
+    padding-top: 8px;
+    color: red;
+}
+.image_main {
+    width: 100%;
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+.active_squere {
+    background-color: #FFA000;
+}
+.phone_container {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.phone {
+    height: auto;
+    width: 30%;
+}
+.phone1 {
+    opacity: .3;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.phone2 {
+    opacity: .6;
+    margin-right: 10px;
+}
+.phone3 {
+    opacity: .9;
+}
+h3 {
+text-align: center;
+background-color: blue;
+font-size: 26px;
+}
+.card__image_big {
+    width: 200px;
+    height: 250px;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 0px;
+}
+.card__image_small {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.card_text {
+    font-size: 16px;
+    display: inline;
+    margin-right: 5px;
+    align-self: center;
+}
+.card-title {
+    background-color: #29B6F6;
+    border-radius: 0 0 5px 5px;
+    margin-top: 0px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+.cards-container {
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+.text-container {
+    display: inline;
+    vertical-align: middle;
+    height: 50px;
+}
+.task3_a {
+    color: black;
+}

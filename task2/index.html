@@ -82,15 +82,15 @@
             <fieldset>
                 <legend>Класс жилья</legend>
                 <label for="bisnes">Бизнес</label>
-                <input id="bisnes" type="checkbox">
+                <input id="bisnes" type="checkbox" name = "type[]">
                 <label for="premium">Премиум</label>
-                <input id="premium" type="checkbox">
+                <input id="premium" type="checkbox" name = "type[]">
                 <label for="deluxe">Делюкс</label>
-                <input id="deluxe" type="checkbox">
+                <input id="deluxe" type="checkbox" name = "type[]">
             </fieldset>
             <div>
                 <label for="floor">Этаж</label>
-                <select id="floor" name="floor">
+                <select id="floor" name="floor" multiple>
                         <option value="1">Не первый</option>
                         <option value="2">Не последний</option>
                         <option value="3">2</option>

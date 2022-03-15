@@ -1,10 +1,10 @@
 body {
     background-image: url(../pictures/туман.jpg);
-    background-size: 100%;
-    background-position:0vw;
+    background-size:100vw;
+    background-position: 0 0, center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    max-width: 100%;
+    max-width: 1280px;
     background-clip: border-box;
 }
 section {
@@ -73,15 +73,17 @@ p > a {
 
 div > a {
     display: inline-block;
+    box-sizing: border-box;
     border: 1px solid red;
     border-radius: 5px;
-    width: 30px;
-    height: 30px;
+    width: 45px;
+    height: 45px;
     text-decoration: none;
     margin-right: 15px;
     text-align: center;
-    padding-top: 8px;
     color: red;
+    vertical-align: middle;
+    padding-top: 12px;
 }
 .image_main {
     width: 100%;

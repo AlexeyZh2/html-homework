@@ -39,6 +39,7 @@ a {
     text-align: center;
     padding: 10px 10px;
     box-sizing: border-box;
+    border-bottom: 3px solid transparent;
 }
 .sub_a:hover {
     border-bottom: 3px solid white;  
@@ -115,8 +116,8 @@ label {
 .remember+label::before {
     content: '';
     display: inline-block;
-    width: 1em;
-    height: 1em;
+    width: 20px;
+    height: 20px;
     flex-shrink: 0;
     flex-grow: 0;
     border: 1px solid #adb5bd;
@@ -125,7 +126,7 @@ label {
     margin-left: 20px;
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 50% 50%;
+    background-size: 100% 100%;
   }
   .remember:checked+label::before {
     border-color: rgb(109, 76, 65);
